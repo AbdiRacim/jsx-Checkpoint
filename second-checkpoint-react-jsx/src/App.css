@@ -1,38 +1,98 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+.try{
+  color: #20639B;
+  display:flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+#show{
+margin-left: 640px;
+  border-radius: 40%;
+  background-color: #f96b00;
+  border-color: white;
+  height:40px ;
+  color:white;
+  padding: 10px;
+
+}
+#show:hover{
+  background-color:#823800;
+    box-shadow: 6px 2px gray ;
+}
+.PhotoProfileDiv{
+  border-radius: 50%;
+  border: 10px #173F5F solid;
+  background-color:brown;
+  width:240px;
+  height:320px;
+  padding:0px 10px 10px 0px;
+}
+.PhotoProfile{
+  border-radius: 50%;
+  border: 5px white solid;
+}
+.Name{
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size:larger;
+  color:white;
+  border-bottom: 2px white dashed;
+}
+.email{
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size:larger;
+  color:#20639B;
+}
+.container{
+  background-color: rgb(230, 227, 227);
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  flex-wrap: wrap;
+  height: 600px;
+}
+.c1{
+  margin:25px
+}
+.c2{
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  flex-wrap: wrap;
+  background-color:#20639B;
+  width:420px;
+  padding: 5px;
+  height:280px
+}
+.c3{
+  margin-top: -30px;
+  background-color:White;
+}
+.c4{
+  margin-top:180px;
+  display: flex;
+  justify-content:center;
+  padding: 5px
+  /* gap: 30px;
+  flex-wrap: wrap; */
+}
+.stars{
+  margin-top:50px;
+  animation:dawarane 6s linear infinite;
+        animation-direction: reverse;
+    }
+    @keyframes dawarane {
+        0% {
+        transform: rotate(0);
+        }
+        100% {
+        transform: rotate(360deg);
+        }
+    
+}
+.stars1{
+margin-top: 200px;
+}
+.red{
+  color:#be2f0f;
+  margin-left:130px
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
